@@ -1,0 +1,3 @@
+[bl]
+wifi_ssid = "SSIDNAME"
+wifi_psk = "PASSWORD"
