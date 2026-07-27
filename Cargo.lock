@@ -93,6 +93,7 @@ name = "bl"
 version = "0.1.0"
 dependencies = [
  "anyhow",
+ "dht-sensor",
  "embassy-time",
  "embuild",
  "esp-idf-svc",
@@ -365,6 +366,15 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "10d60334b3b2e7c9d91ef8150abfb6fa4c1c39ebbcf4a81c2e346aad939fee3e"
 dependencies = [
  "thiserror 2.0.19",
+]
+
+[[package]]
+name = "dht-sensor"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "74d643854f324f02daea7153ebbfec5cfcc2f395faf1c7011be65e543570de28"
+dependencies = [
+ "embedded-hal 0.2.7",
 ]
 
 [[package]]
