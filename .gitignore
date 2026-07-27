@@ -1,4 +1,6 @@
+.vs/
 /.vscode
 /.embuild
 /target
 cfg.toml
+ToDo.txt
